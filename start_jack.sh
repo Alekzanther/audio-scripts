@@ -22,19 +22,17 @@ pacmd load-module module-jack-sink channels=2 sink_name=games-out client_name=ga
 pacmd load-module module-jack-source channels=2 source_name=media-in client_name=media-in connect=false
 pacmd load-module module-jack-sink channels=2 sink_name=media-out client_name=media-out connect=false
 
+#pacmd load-module module-jack-source channels=2 source_name=default-in client_name=default-in connect=false
+pacmd load-module module-jack-sink channels=2 sink_name=default-out client_name=default-out connect=false
 
-sleep 2
-a2jmidid -e &
-sleep 2
-#killall mididings
-#mididings -f ~/audio-scripts/midi-osc.py &
-sleep 2
-non-mixer --osc-port=15159 ~/audio-scripts/non.mix &
-sleep 2
+
 
 sleep 2
 
-carla ~/audio-scripts/carla.presets/default.carxp &
+non-mixer --osc-port=15159 ~/Projects/audio-scripts/mixer.mix &
+sleep 2
+
+carla ~/Projects/audio-scripts/carla.presets/alex.carxp &
 sleep 3
 wall "Audio systems up and running"
 sleep 1

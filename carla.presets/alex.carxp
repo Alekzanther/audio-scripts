@@ -80,28 +80,28 @@
     <Index>1</Index>
     <Name>Input</Name>
     <Symbol>level_in</Symbol>
-    <Value>0.846745252609253</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Output</Name>
     <Symbol>level_out</Symbol>
-    <Value>1</Value>
+    <Value>0.607097446918488</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Amount</Name>
     <Symbol>amount</Symbol>
-    <Value>1.5583291053772</Value>
+    <Value>1.49071049690247</Value>
    </Parameter>
 
    <Parameter>
     <Index>8</Index>
     <Name>Harmonics</Name>
     <Symbol>drive</Symbol>
-    <Value>10</Value>
+    <Value>8.5</Value>
    </Parameter>
 
    <Parameter>
@@ -115,7 +115,7 @@
     <Index>11</Index>
     <Name>Scope</Name>
     <Symbol>freq</Symbol>
-    <Value>70.6354141235352</Value>
+    <Value>141.873931884766</Value>
    </Parameter>
 
    <Parameter>
@@ -136,7 +136,7 @@
     <Index>14</Index>
     <Name>Floor</Name>
     <Symbol>floor</Symbol>
-    <Value>42.994987487793</Value>
+    <Value>20</Value>
    </Parameter>
   </Data>
  </Plugin>
